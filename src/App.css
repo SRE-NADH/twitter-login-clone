@@ -59,8 +59,8 @@ margin: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
   font-size: .5rem;
+  height: 4vh;
 }
 .footer>*{
   padding-inline:10px;
@@ -76,27 +76,36 @@ margin: 20px;
 }
 
 @media screen and (max-width:680px) {
-   /* .app{
+   .app{
     flex-direction: column;
-    background-color: blanchedalmond;
     margin-inline: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
    }
  
   .main-content{
     width: 100%;
-    margin: 20px;
   }
   
    .main-content{
       padding: 0px;
       width: 100%;
+      justify-content: center;
+   }
+   .main-content>img{
+    margin-top: 30px;
+   }
+   .main-content>*{
+    margin-left: 20px;
    }
    .image-container,.image-container>img{
     display: none;
    }
    .buttons{
     width: 400px;
-   } */
+    margin-left: 40px;
+   }
 
 }
 
