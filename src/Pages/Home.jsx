@@ -4,19 +4,19 @@ import { useNavigate } from 'react-router-dom';
 const Home = () => {
     const navigate = useNavigate();
   return (
-    <div className='app-container'>
+    <div>
         <div className='app'>
         <div className='image-container'>
-          <img src="./assets/back-twitter 1.png" alt="" />
+          <img src="./public/back-twitter 1.png" alt="" />
         </div>
         
         <div className='main-content'>
-          <img src="./assets/twitter-logo-4 1.png" alt=""  />
+          <img src="./public/twitter-logo-4 1.png" alt=""  />
           <h1>Happening now</h1>
           <h2>Join Twitter today</h2>
           <div className='buttons'>
-            <div> <img src='./assest/google-icon 1.png' width={20} /> Sign up with Google</div>
-            <div><img src='./assets/logo-apple 1.png' width={20} />Sign up with Apple</div>
+            <div> <img src='./public/google-icon 1.png' width={20} /> Sign up with Google</div>
+            <div><img src='./public/logo-apple 1.png' width={20} />Sign up with Apple</div>
             <div onClick={()=>{navigate('/sign-up')}} >Sign Up with phone or email</div>
           </div>
           <p>By singing up you agree to the <span>Terms of Service</span> and <span>Privacy Policy</span>, <span>including Cookie Use</span>.</p>
