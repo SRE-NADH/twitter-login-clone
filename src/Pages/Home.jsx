@@ -7,16 +7,16 @@ const Home = () => {
     <div>
         <div className='app'>
         <div className='image-container'>
-          <img src="./public/back-twitter 1.png" alt="" />
+          <img src="/images/back-twitter 1.png" alt="" />
         </div>
         
         <div className='main-content'>
-          <img src="./public/twitter-logo-4 1.png" alt=""  />
+          <img src="/images/twitter-logo-4 1.png" alt=""  />
           <h1>Happening now</h1>
           <h2>Join Twitter today</h2>
           <div className='buttons'>
-            <div> <img src='./public/google-icon 1.png' width={20} /> Sign up with Google</div>
-            <div><img src='./public/logo-apple 1.png' width={20} />Sign up with Apple</div>
+            <div> <img src='/images/google-icon 1.png' width={20} /> Sign up with Google</div>
+            <div><img src='/images/logo-apple 1.png' width={20} />Sign up with Apple</div>
             <div onClick={()=>{navigate('/sign-up')}} >Sign Up with phone or email</div>
           </div>
           <p>By singing up you agree to the <span>Terms of Service</span> and <span>Privacy Policy</span>, <span>including Cookie Use</span>.</p>

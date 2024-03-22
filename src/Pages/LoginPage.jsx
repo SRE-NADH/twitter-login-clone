@@ -7,7 +7,7 @@ const LoginPage = () => {
   return (
     <div className='login'>
       <div>
-      <img src="./public/twitter-logo-4 1.png" alt="" />
+      <img src="/images/twitter-logo-4 1.png" alt="" />
       <h1>Log in to Twitter</h1>
       <input type='text' placeholder='Phone number, email adress'/>
       <input type="text" placeholder="Password"/>

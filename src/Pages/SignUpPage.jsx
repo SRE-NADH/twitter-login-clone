@@ -40,7 +40,7 @@ function checkLeapYear(year){
 
   return (
     <div className='sign-up'>
-     <div className='img'><img src="./public/twitter-logo-4 1.png" alt="" /></div>
+     <div className='img'><img src="/images/twitter-logo-4 1.png" alt="" /></div>
      <h1>Create an account</h1>
      <div className='input-field'>
        <input type="text" placeholder='Name' />
@@ -76,8 +76,6 @@ function checkLeapYear(year){
          </select>
       </div>
       <button>Next</button>
-
-
      </div>
     </div>
   )
