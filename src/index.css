@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+   font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.sign-up{
+  margin-top: 20px;
+  margin-inline: 50px;
+}
+.sign-up>.img{
+  text-align: center;
+}
+.sign-up>h1{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  margin-top: 30px;
+  font-weight: 900;
+}
+.sign-up>.input-field{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input-field>input{
+  border: 1.5px solid 
+  #E4EAED;
+  padding: 15px;
+  border-radius: 5px;
+}
+.input-field>p{
+  color: #1C95E9;
+}
+
+.date-of-birth{
+  margin-top: 20px;
+}
+.date-of-birth>p{
+  margin-top: 10px;
+}
+.calender{
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+.calender select{
+ padding:15px;
+  width: 200px;
+  border: 1.5px solid #E4EAED;
+  border-radius: 5px;
+
+}
+.sign-up button{
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: #1C95E9;
+  cursor: pointer;
+  color: white;
+}
+
+.input-field>input:focus{
+ outline: none;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+align-items: flex-start;
+ 
+}
+.login>div>*{
+ margin: 10px;
+}
+.login img{
+  width: 40px;
+}
+.login>div{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding-top: 50px;
+}
+.login input{
+  padding: 10px;
+  border: 1.5px solid #E4EAED;
+  border-radius: 5px;
+}
+.login button{
+  padding: 10px;
+  border: none;
+ background-color: #1C95E9;
+ border-radius: 30px;
+ color: white;
+}
+.login-footer{
+  display: flex;
+  justify-content: space-between;
+  color: #1C95E9;
+}
+.input-field>p{
+  cursor: pointer;
+}
+select:focus{
+  outline: none;
+}
+
+@media screen and (max-width:400px){
+  .calender select{
+    padding:5px;
+     width: 200px;
+     border: 1.5px solid #E4EAED;
+     border-radius: 5px;
+   }
+}
